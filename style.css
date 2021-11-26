@@ -292,17 +292,6 @@ input:checked + .slider:before {
     margin-bottom: 30px;
 }
 
-.space-bar {
-    width: 350px;
-    border: solid 1px var(--light-grayish-blue);
-    opacity: 0.8;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
 .element-right-card{
     font-size: var(--font-size);
     font-family: var(--font-family);
@@ -354,17 +343,6 @@ input:checked + .slider:before {
     margin-bottom: 30px;
 }
 
-.space-bar {
-    width: 350px;
-    border: solid 1px var(--light-grayish-blue);
-    opacity: 0.8;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-
 .element-left-card{
     font-size: var(--font-size);
     font-family: var(--font-family);
@@ -394,4 +372,9 @@ input:checked + .slider:before {
     background: transparent;
     cursor: pointer;
     transition-duration: 0.2s;
+}
+
+
+#basic-monthly, #pro-monthly, #master-monthly {
+    display: none;
 }
