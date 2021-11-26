@@ -48,20 +48,13 @@ The designs were created to the following widths:
 }
 
 
-.body-top {
-    height: 80vh;
-    background-image: url(pictures/bg-top.svg);
-    margin-top: -10px;
-    background-position-x: right;
-    background-repeat: no-repeat;
-}
-
-.body-bottom {
-    height: 19vh;
-    background-image: url(pictures/bg-bottom.svg);
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(pictures/bg-bottom.svg), url(pictures/bg-top.svg);
     background-repeat: no-repeat;
     background-size: 300px;
-    background-position-y: top;
+    background-position: bottom left, top right;
 }
 
 
